@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
-    "vercel-build": "ng build --prod"
+    "vercel-build": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
