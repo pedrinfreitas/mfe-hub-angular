@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
+    "vercel-build": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@angular-architects/module-federation": "^16.0.0",
+    "@angular-architects/module-federation-tools": "^16.0.0",
     "@angular-devkit/build-angular": "^16.2.16",
     "@angular/cli": "^16.2.16",
     "@angular/compiler-cli": "^16.2.0",
